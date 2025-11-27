@@ -24,7 +24,7 @@ export default async function Image() {
   return new ImageResponse(
     (
       // ImageResponse JSX element
-      <div tw="flex items-center justify-center w-full h-full text-white bg-primary">
+      <div tw="flex flex-col gap-y-2 items-center justify-center w-full h-full text-white bg-red-600">
         <img
           src={`data:image/svg+xml;base64,${imageData.toString("base64")}`}
           alt="Bascorp"
