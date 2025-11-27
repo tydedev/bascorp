@@ -22,7 +22,7 @@ const HomeHero = () => {
             className="cursor-pointer leading-none"
           >
             <PhoneCall />
-            <Link href="tel:+393333333333"> Prenota una consulenza</Link>
+            <Link href="tel:+393334547382"> Prenota una consulenza</Link>
           </Button>
           <Button
             variant="outline"

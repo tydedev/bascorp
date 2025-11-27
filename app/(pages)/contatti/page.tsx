@@ -15,14 +15,14 @@ const ContactsPage = () => {
           elencando il tipo di intervento che stai cercando.
           <br /> Verrai ricontattato il prima possibile.
         </p>
-        <div className="flex flex-col space-y-3 md:flex-row md:gap-x-5 items-center justify-center py-5">
+        <div className="flex flex-col space-y-3 md:space-y-0 md:flex-row md:gap-x-5 items-center justify-center py-5">
           <p className="flex gap-x-2 items-center font-semibold">
             <Mail className="h-5 w-5 text-primary shrink-0" />
             <Link href="mailto:info@bascorp.it">info@bascorp.it</Link>
           </p>
           <p className="flex gap-x-2 items-center font-semibold">
             <PhoneCall className="h-5 w-5 text-primary shrink-0" />
-            <Link href="tel:+393333333333">+39 333 333 333</Link>
+            <Link href="tel:+393334547382">+39 333 454 7382</Link>
           </p>
         </div>
         <div className="font-semibold text-md mb-2 mt-20 text-center">
