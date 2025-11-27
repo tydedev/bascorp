@@ -17,22 +17,16 @@ export default async function Image() {
   const interSemiBold = await readFile(
     join(process.cwd(), "assets/fonts/Inter-Bold.ttf")
   );
+  const imageData = await readFile(
+    join(process.cwd(), "assets/images/logo.svg")
+  );
 
   return new ImageResponse(
     (
       // ImageResponse JSX element
-      <div
-        style={{
-          fontSize: 128,
-          background: "white",
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        About Acme
+      <div tw="flex items-center justify-center w-full h-full text-white bg-primary">
+        <img src="/logo.svg" alt="Bascorp" width={150} height={150} />
+        <h1 tw="text-5xl">Bascorp</h1>
       </div>
     ),
     // ImageResponse options
