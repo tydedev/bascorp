@@ -22,7 +22,7 @@ const MobileMenu = () => {
   const scroll = useScroll();
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger>
+      <SheetTrigger name="menu">
         <Menu
           size={24}
           className={cn(

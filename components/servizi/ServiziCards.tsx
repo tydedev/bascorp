@@ -70,10 +70,10 @@ const ServiziCards = () => {
           >
             <CardContent className="flex flex-col items-start gap-4">
               <s.icon
-                className={cn("text-primary", { "text-white": s.isExtra })}
+                className={cn("text-red-600", { "text-white": s.isExtra })}
               />
               <CardTitle
-                className={cn("text-lg font-semibold text-primary", {
+                className={cn("text-lg font-semibold text-red-600", {
                   "text-white": s.isExtra,
                 })}
               >
