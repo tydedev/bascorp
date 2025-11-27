@@ -29,9 +29,9 @@ const servizi = [
     icon: Paintbrush,
   },
   {
-    title: "Impianti elettrici",
+    title: "Servizi elettrici",
     description:
-      "Realizzazione e manutenzione di impianti elettrici, cablaggi, prese e sistemi di illuminazione sicuri e moderni.",
+      "Interventi su sistemi e componenti elettrici in ambito civile e commerciale.",
     icon: Zap,
   },
   {
