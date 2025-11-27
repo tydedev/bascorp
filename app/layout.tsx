@@ -13,6 +13,7 @@ const inter = Inter({
 export const metadata = {
   title: "Bascorp",
   description: "Azienda di costruzione",
+  metaDataBase: new URL("https://bascorp.it"),
   openGraph: {
     images: [
       { url: "/opengraph-image", width: 1200, height: 630, alt: "Bascorp" },
