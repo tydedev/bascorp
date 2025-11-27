@@ -22,7 +22,16 @@ const MobileMenu = () => {
   const scroll = useScroll();
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger name="menu">
+      <SheetTrigger
+        name="menu"
+        type="button"
+        aria-haspopup="dialog"
+        aria-expanded="false"
+        aria-controls="radix-_r_0_"
+        data-state="closed"
+        data-slot="sheet-trigger"
+        aria-label="Apri menu"
+      >
         <Menu
           size={24}
           className={cn(

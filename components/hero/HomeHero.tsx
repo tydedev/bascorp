@@ -21,18 +21,28 @@ const HomeHero = () => {
             variant="default"
             size={"default"}
             className="cursor-pointer leading-none text-slate-950"
+            asChild
           >
-            <PhoneCall />
-            <Link href="tel:+393334547382"> Prenota una consulenza</Link>
+            <Link
+              href="tel:+393334547382"
+              aria-label="Chiama per prenotare una consulenza"
+            >
+              <PhoneCall />
+              Prenota una consulenza
+            </Link>
           </Button>
           <Button
             name="mail"
             variant="outline"
             size={"default"}
             className="bg-muted-foreground/10 hover:bg-muted-foreground/20 border-muted-foreground/20 hover:border-muted-foreground/30 hover:text-slate-200 cursor-pointer leading-none"
+            asChild
           >
-            <Mail />
-            <Link href="mailto:info@bascorp.it?subject=Informazioni">
+            <Link
+              href="mailto:info@bascorp.it?subject=Informazioni"
+              aria-label="Invia una mail"
+            >
+              <Mail />
               Scrivici
             </Link>
           </Button>
