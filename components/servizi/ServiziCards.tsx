@@ -53,7 +53,7 @@ const ServiziCards = () => {
     <>
       <div className="space-y-2 text-center">
         <h2 className="text-3xl font-bold">I nostri servizi</h2>
-        <p className="text-muted-foreground">
+        <p className="text-muted-foreground px-13">
           Professionalità e attenzione al dettaglio in ogni intervento.
         </p>
       </div>
