@@ -17,6 +17,7 @@ const HomeHero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
           <Button
+            name="telefono"
             variant="default"
             size={"default"}
             className="cursor-pointer leading-none"
@@ -25,6 +26,7 @@ const HomeHero = () => {
             <Link href="tel:+393334547382"> Prenota una consulenza</Link>
           </Button>
           <Button
+            name="mail"
             variant="outline"
             size={"default"}
             className="bg-muted-foreground/10 hover:bg-muted-foreground/20 border-muted-foreground/20 hover:border-muted-foreground/30 hover:text-slate-200 cursor-pointer leading-none"
