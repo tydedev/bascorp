@@ -10,19 +10,17 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Bascorp",
   description: "Azienda di costruzione",
-  viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
     images: [
-      {
-        url: "https://bascorp.vercel.app/api/og?title=Bascorp",
-        width: 1200,
-        height: 630,
-        alt: "Bascorp",
-      },
+      { url: "/opengraph-image", width: 1200, height: 630, alt: "Bascorp" },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/opengraph-image"],
   },
   icons: {
     icon: [
