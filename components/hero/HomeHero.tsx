@@ -15,7 +15,7 @@ const HomeHero = () => {
           Bascorp realizza costruzioni e ristrutturazioni su misura, rispettando
           tempi, qualità e sicurezza.
         </p>
-        <div className="flex flex-col sm:flex-row gap-2 items-center justify-center w-full">
+        <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
           <Button
             variant="default"
             size={"default"}
