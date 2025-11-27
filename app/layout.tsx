@@ -14,6 +14,16 @@ export const metadata: Metadata = {
   title: "Bascorp",
   description: "Azienda di costruzione",
   viewport: "width=device-width, initial-scale=1.0",
+  openGraph: {
+    images: [
+      {
+        url: "https://bascorp.vercel.app/api/og?title=Bascorp",
+        width: 1200,
+        height: 630,
+        alt: "Bascorp",
+      },
+    ],
+  },
   icons: {
     icon: [
       { url: "/logo_light.svg", media: "(prefers-color-scheme: light)" },
