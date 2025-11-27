@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it" suppressHydrationWarning>
-      <meta name="theme-color" content="#ef4136" />
+      <meta name="theme-color" content="#0f172a" />
       <body className={`${inter.variable} antialiased min-h-dvh flex flex-col`}>
         <ThemeProvider
           attribute="class"
