@@ -49,8 +49,8 @@ export default function PrivacyPolicy() {
               info@bascorp.it
             </Link>{" "}
             o telefonandoci al numero{" "}
-            <Link href="tel:+390667761" className="text-red-600 font-semibold">
-              +39 06 676131
+            <Link href="tel:+393334547382" className="text-red-600 font-semibold">
+              +39 333 454 7382
             </Link>
             .
           </p>
