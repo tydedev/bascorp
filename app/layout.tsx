@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -18,6 +17,14 @@ export const metadata = {
       { url: "/logo_light.svg", media: "(prefers-color-scheme: light)" },
       { url: "/logo_dark.svg", media: "(prefers-color-scheme: dark)" },
     ],
+  },
+  openGraph: {
+    title: "Bascorp",
+    description: "Azienda di costruzione",
+    siteName: "Bascorp", // <--- il nome del tuo sito
+    url: "https://bascorp.it", // <--- l'URL del tuo sito
+    locale: "it_IT", // <--- la lingua del tuo sito
+    type: "website", // <--- il tipo di sito, puoi scegliere tra "website" o "article
   },
 };
 
