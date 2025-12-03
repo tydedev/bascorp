@@ -21,9 +21,20 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className="w-full flex items-center">
+        <div className="w-full flex items-center gap-1">
           <small className="text-muted-foreground hidden sm:block">
             Copyright &copy; {date} Bascorp.
+          </small>
+          <small className="text-muted-foreground">
+            Sito web realizzato da{" "}
+            <Link
+              href="https://tydedev.vercel.app"
+              target="_blank"
+              className="font-semibold"
+            >
+              Tydedev
+            </Link>
+            .
           </small>
           <small className="space-x-2 ml-auto flex justify-center w-full sm:w-auto font-medium">
             <Link href="/privacy-policy">Privacy Policy</Link>
