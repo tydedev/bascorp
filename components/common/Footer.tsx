@@ -28,7 +28,7 @@ const Footer = () => {
           <small className="text-muted-foreground">
             Sito web realizzato da{" "}
             <Link
-              href="https://tydedev.vercel.app"
+              href="https://tydedev.it"
               target="_blank"
               className="font-semibold"
             >
