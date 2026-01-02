@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Bascorp",
-  description: "Azienda di costruzione",
+  title: "Bascorp | Costruzione e ristrutturazione",
+  description: "Azienda di costruzione e ristrutturazione",
   icons: {
     icon: [
       { url: "/logo_light.svg", media: "(prefers-color-scheme: light)" },
@@ -19,9 +19,9 @@ export const metadata = {
     ],
   },
   openGraph: {
-    title: "Bascorp",
-    description: "Azienda di costruzione",
-    siteName: "Bascorp", // <--- il nome del tuo sito
+    title: "Bascorp | Costruzione e ristrutturazione",
+    description: "Azienda di costruzione e ristrutturazione",
+    siteName: "Bascorp | Costruzione e ristrutturazione", // <--- il nome del tuo sito
     url: "https://bascorp.it", // <--- l'URL del tuo sito
     locale: "it_IT", // <--- la lingua del tuo sito
     type: "website", // <--- il tipo di sito, puoi scegliere tra "website" o "article
