@@ -20,7 +20,7 @@ const CompleteSolution = () => {
       <h3 className="md:text-5xl text-3xl text-center font-medium md:text-left max-w-xl">
         <span className="text-primary font-medium">Ristrutturazione</span>{" "}
         completa a partire da{" "}
-        <span className="text-primary font-medium">€400/mq</span>
+        <span className="text-primary font-medium">€550/mq</span>
       </h3>
     </section>
   );
